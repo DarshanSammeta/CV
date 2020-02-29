@@ -1,0 +1,242 @@
+*{
+	padding:0px;
+	margin:0px;
+}
+body{
+	font-family: 'K2D', sans-serif !important;
+	font-family: 'Mali', cursive !important;
+}
+.header1{
+	height:40px;
+	background-color:#003;
+	width:100%;
+	padding-top:10px;
+}
+
+@media only screen and (max-width:768px){
+	.header1{
+		height:auto;
+		text-align:center;
+	}
+}
+.ul2 li a{
+	text-decoration:none;
+}
+.clear{
+	clear:both;
+}
+.navbar{
+	min-height:85px !important;
+}
+@media only screen and (max-width:768px){
+	.navbar{
+		min-height:auto;
+		text-align:center;
+	}
+}
+/* @media only screen and (max-width:768px){ */
+	/* .navbar-brand > img { */
+    /* margin-left: 50%; */
+/* } */
+/* } */
+.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
+    border-color: #CFF;
+    margin-top: 15px;
+}
+@media only screen and (max-width:768px){
+	.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
+    border-color: #101010;
+    margin-top: 30px;
+}
+}
+.navbar-inverse{
+	background-color:#CFF !important;
+	/* background-color:#ea7631 !important; */
+}
+.navbar-inverse .navbar-nav > li > a {
+    color: #333 !important;
+}
+.navbar-inverse .navbar-nav > li > a:hover {
+	border-bottom:2px solid #333;
+}
+@media only screen and (max-width:768px){
+	.navbar-inverse .navbar-nav > li > a:hover {
+		border-bottom:none;
+		color:yellow !important;
+	}
+}
+.box{
+	border:1px solid #dce6e8;
+	height:410px;
+	/* padding:10px; */
+}
+.box h5{
+	padding:10px;
+	background-color:#666;
+	color:#fff;
+	font-size:20px;
+	margin-top:0px !important;
+}
+.box img{
+	border:1px solid #666;
+	padding:10px;
+	margin:10px;
+	float:left;
+}
+.box p{
+	line-height:19px;
+	padding:10px;
+}
+.box-btn{
+	background-color:#666;
+	color:#fff;
+	border:#b73119;
+	height:25px;
+	width:125px;
+}
+.voca1 li{
+	line-height:30px;
+}
+.strip{
+	margin-top:20px;
+	background-color:red !important;
+	background-image: linear-gradient(to right, red , orange , yellow);
+	height:100px;
+}
+.strip h3{
+	float:left;
+	margin-top:0px !important;
+}
+.strip button{
+	background-color:green;
+	border:none;
+	color:white;
+	height:50px;
+	width:180px;
+	margin-top:30px;
+	font-weight:bold;
+	text-align:center;
+}
+.strip button i{
+	padding:5px;
+	/* margin-top:-6px; */
+}
+@media only screen and (max-width:768px){
+	.strip{
+		height:auto;
+	}
+}
+.programs{
+	border:1px solid #06C;
+	height:270px;
+	/* padding:10px; */
+}
+.programs ul{
+	line-height:27px;
+	/* margin-left:25px; */
+	margin-top:30px;
+}
+.programs ul li{
+	border-top:1px solid #06C;
+	border-bottom:1px solid #06C;
+	list-style-type:none;
+	
+	
+}
+.h51{
+	padding:10px;
+	/* background-color:#b73119; */
+	color:#06C;
+	font-size:20px;
+	margin-top:0px !important;
+}
+.programs ul li a{
+	margin-left:10px;
+	color:#06C;
+	text-decoration:none;
+	text-align:center;  
+}
+.staff{
+	background-color:#CCC;
+	/* background-image:url("../images/event-schedule-bg.jpg"); */
+	/* background-repeat:no-repeat; */
+	/* background-size:100%; */
+	height:540px;
+}
+@media only screen and (max-width:768px){
+	.staff{
+		height:auto;
+	}
+}
+
+.staff h1{
+	color:#FFF;
+	padding-top:25px;
+	/* border-bottom:1px solid red; */
+}
+.edu1{
+	background-color:white;
+	height:370px;
+	margin:5px;
+}
+.edu1 ul li{
+	height:30px;
+	width:30px;
+	padding:5px;
+	background-color:#99C;
+}
+.edu1 ul li i{
+	color:#003;
+}
+.edu1 ul li:hover{
+	background-color:#CFF;
+}
+.footer{
+	background-color:black;	
+	height:430px;
+}
+.footer1{	
+	color:white;
+}
+.footer1 h4{
+	color:#CFF;
+}
+.footer1 ul li a{
+	text-decoration:none;
+	color:white;
+}
+.footer1 ul li a:hover{
+	color:#CFF;
+}
+@media only screen and (max-width:768px){
+	.footer{
+		height:auto;
+	}
+}
+
+.social1 li{
+	background-color:#CCC;
+	margin-top:15px;
+	margin-left:5px;
+}
+.social1 li i{
+	color:black;
+	padding:8px;
+}
+.social1 li:hover{
+	background-color:#CFF;
+}
+.social1 li i:hover{
+	color:#06C;
+}
+
+
+
+.gallery1 img{
+	height:280px;
+	width:500px;
+	padding-bottom:20px;
+	padding-right:0px !important;
+	padding-left:0px !important;
+	/* border:1px solid #ccc; */
+}

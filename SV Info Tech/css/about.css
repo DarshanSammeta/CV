@@ -1,0 +1,135 @@
+*{
+	padding:0px;
+	margin:0px;
+}
+body{
+	font-family: 'K2D', sans-serif !important;
+	font-family: 'Mali', cursive !important;
+}
+.header1{
+	height:40px;
+	background-color:#262a2b;
+	width:100%;
+	padding-top:10px;
+}
+
+@media only screen and (max-width:770px){
+	.header1{
+		height:auto;
+		text-align:center;
+	}
+}
+.ul2 li a{
+	text-decoration:none;
+}
+.clear{
+	clear:both;
+}
+.navbar{
+	min-height:88px !important;
+}
+@media only screen and (max-width:768px){
+	.navbar{
+		min-height:auto;
+		text-align:center;
+	}
+}
+/* @media only screen and (max-width:768px){ */
+	/* .navbar-brand > img { */
+    /* margin-left: 50%; */
+/* } */
+/* } */
+.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
+    border-color: #101010;
+    margin-top: 13px;
+}
+@media only screen and (max-width:768px){
+	.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
+    border-color: #101010;
+    margin-top: 30px;
+}
+}
+.navbar-inverse{
+	/* background-color:#b73119 !important; */
+	background-color:#CFF !important;
+}
+.navbar-inverse .navbar-nav > li > a {
+    color: #121213 !important;
+}
+.navbar-inverse .navbar-nav > li > a:hover {
+	border-bottom:2px solid rgb(12, 12, 12);
+}
+@media only screen and (max-width:768px){
+	.navbar-inverse .navbar-nav > li > a:hover {
+		border-bottom:none;
+		color:rgb(20, 20, 20) !important;
+	}
+}
+
+.social1 li{
+	background-color:#fff;
+	margin-top:15px;
+	margin-left:5px;
+}
+.social1 li i{
+	color:black;
+	padding:8px;
+}
+.social1 li:hover{
+	background-color:#1636e9;
+}
+.social1 li i:hover{
+	color:white;
+}
+
+/* directors */
+.about-content{
+	background-color:#f6f4f0;
+	padding:10px;
+}
+.about-contentright{
+	border:1px solid #ccc;
+	padding:10px;
+	margin-top:15px;
+	opacity:0.5;
+}
+.about-contentright:hover{
+	opacity:1.0;
+}
+.about-bottom{
+	margin-top:20px;
+	margin-bottom:20px;
+}
+
+
+/* directors */
+
+
+
+
+
+
+/* footer start */
+	.footer{
+	background-color:black;	
+	height:430px;
+}
+.footer1{	
+	color:white;
+}
+.footer1 h4{
+	color:#6aebd5;
+}
+.footer1 ul li a{
+	text-decoration:none;
+	color:white;
+}
+.footer1 ul li a:hover{
+	color:#80f0e6;
+}
+@media only screen and (max-width:768px){
+	.footer{
+		height:auto;
+	}
+}
+/* footer end */
